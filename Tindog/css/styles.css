@@ -1,0 +1,162 @@
+
+#title{
+  background-color: #f75e63;
+}
+h1 {
+  font-size: 4rem;
+  font: "Montserrat";
+  font-weight: bold;
+  line-height: 2;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.row{
+  padding: 1% 15%;
+}
+.fab{
+  padding: 8px;
+}
+
+#con1_text{
+  padding-top: 10%;
+}
+
+#con1_img{
+  transform: rotate(25deg);
+  margin-left: 40%;
+  margin-top: 8%;
+  position:absolute;
+}
+
+.btn{
+  margin-top: 5%;
+  padding-left: 20px;
+  margin-right: 16px;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 20%;
+}
+
+/* Features Section */
+
+#features{
+  background-color: white;
+  padding-top:150px;
+  position:relative;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+h3{
+  font-family: "Ubuntu";
+  padding:2px;
+}
+
+p{
+  color: grey;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.icon:hover{
+  color:#f75e63;
+}
+
+/* Testimonals Section */
+#testimonials{
+  padding: 100px;
+  background-color: #ef8172;
+  text-align: center;
+  color:white;
+}
+
+.test_text{
+  font-family:"Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.test_img{
+  width:10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 10% 1% 10%;
+  z-index:1;
+}
+
+.plan{
+  text-align: center;
+}
+
+.carousel-item{
+  padding-left: 300px;
+  padding-right:300px;
+}
+
+.card-header{
+  text-align: center;
+}
+.card-body{
+  text-align: center;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align:center;
+    color:white;
+  }
+  #con1_img{
+    position:static;
+    transform: rotate(0deg);
+    margin-left: 0%;
+  }
+}
+
+/* Call to Action  */
+#cta{
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+  padding:100px;
+}
+
+.cta-text{
+  font-size: 5rem;
+}
+
+#footer{
+  text-align: center;
+  padding:50px;
+}
+.social-icon{
+  padding: 1%;
+}
